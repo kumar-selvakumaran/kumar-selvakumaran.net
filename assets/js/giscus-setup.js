@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "kumar-selvakumaran/kumar-selvakumaran.net",
+    "data-repo": "kumar-selvakumaran/kumar-selvakumaran.github.io",
     "data-repo-id": "",
     "data-category": "",
     "data-category-id": "",

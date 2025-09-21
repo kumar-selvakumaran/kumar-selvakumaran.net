@@ -7,21 +7,21 @@ ninja.data = [{
     title: "About",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/website/";
+      window.location.href = "/";
     },
   },{id: "nav-projects-and-publications",
           title: "Projects and publications",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/website/projects_and_publications/";
+            window.location.href = "/projects_and_publications/";
           },
         },{id: "nav-cv",
           title: "CV",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/website/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -31,7 +31,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2025/03/26/plotly.html";
+            window.location.href = "/sample-posts/2025/03/26/plotly.html";
           
         },
       },{id: "post-a-post-with-image-galleries",
@@ -42,7 +42,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2024/12/04/photo-gallery.html";
+            window.location.href = "/sample-posts/2024/12/04/photo-gallery.html";
           
         },
       },{id: "post-a-post-with-tabs",
@@ -53,7 +53,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2024/05/01/tabs.html";
+            window.location.href = "/sample-posts/2024/05/01/tabs.html";
           
         },
       },{id: "post-a-post-with-typograms",
@@ -64,7 +64,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2024/04/29/typograms.html";
+            window.location.href = "/sample-posts/2024/04/29/typograms.html";
           
         },
       },{id: "post-a-post-that-can-be-cited",
@@ -75,7 +75,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2024/04/28/post-citation.html";
+            window.location.href = "/sample-posts/2024/04/28/post-citation.html";
           
         },
       },{id: "post-a-post-with-pseudo-code",
@@ -86,7 +86,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2024/04/15/pseudocode.html";
+            window.location.href = "/sample-posts/2024/04/15/pseudocode.html";
           
         },
       },{id: "post-a-post-with-code-diff",
@@ -97,7 +97,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2024/01/27/code-diff.html";
+            window.location.href = "/sample-posts/2024/01/27/code-diff.html";
           
         },
       },{id: "post-a-post-with-advanced-image-components",
@@ -108,7 +108,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2024/01/27/advanced-images.html";
+            window.location.href = "/sample-posts/2024/01/27/advanced-images.html";
           
         },
       },{id: "post-a-post-with-vega-lite",
@@ -119,7 +119,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2024/01/27/vega-lite.html";
+            window.location.href = "/sample-posts/2024/01/27/vega-lite.html";
           
         },
       },{id: "post-a-post-with-geojson",
@@ -130,7 +130,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2024/01/26/geojson-map.html";
+            window.location.href = "/sample-posts/2024/01/26/geojson-map.html";
           
         },
       },{id: "post-a-post-with-echarts",
@@ -141,7 +141,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2024/01/26/echarts.html";
+            window.location.href = "/sample-posts/2024/01/26/echarts.html";
           
         },
       },{id: "post-a-post-with-chart-js",
@@ -152,7 +152,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2024/01/26/chartjs.html";
+            window.location.href = "/sample-posts/2024/01/26/chartjs.html";
           
         },
       },{id: "post-a-post-with-tikzjax",
@@ -163,7 +163,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2023/12/12/tikzjax.html";
+            window.location.href = "/sample-posts/2023/12/12/tikzjax.html";
           
         },
       },{id: "post-a-post-with-bibliography",
@@ -174,7 +174,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2023/07/12/post-bibliography.html";
+            window.location.href = "/sample-posts/2023/07/12/post-bibliography.html";
           
         },
       },{id: "post-a-post-with-jupyter-notebook",
@@ -185,7 +185,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2023/07/04/jupyter-notebook.html";
+            window.location.href = "/sample-posts/2023/07/04/jupyter-notebook.html";
           
         },
       },{id: "post-a-post-with-custom-blockquotes",
@@ -196,7 +196,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2023/05/12/custom-blockquotes.html";
+            window.location.href = "/sample-posts/2023/05/12/custom-blockquotes.html";
           
         },
       },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
@@ -207,7 +207,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2023/04/25/sidebar-table-of-contents.html";
+            window.location.href = "/sample-posts/2023/04/25/sidebar-table-of-contents.html";
           
         },
       },{id: "post-a-post-with-audios",
@@ -218,7 +218,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2023/04/25/audios.html";
+            window.location.href = "/sample-posts/2023/04/25/audios.html";
           
         },
       },{id: "post-a-post-with-videos",
@@ -229,7 +229,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2023/04/24/videos.html";
+            window.location.href = "/sample-posts/2023/04/24/videos.html";
           
         },
       },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
@@ -240,7 +240,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2023/03/20/tables.html";
+            window.location.href = "/sample-posts/2023/03/20/tables.html";
           
         },
       },{id: "post-a-post-with-table-of-contents",
@@ -251,7 +251,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2023/03/20/table-of-contents.html";
+            window.location.href = "/sample-posts/2023/03/20/table-of-contents.html";
           
         },
       },{id: "post-a-post-with-giscus-comments",
@@ -262,7 +262,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/external-services/2022/12/10/giscus-comments.html";
+            window.location.href = "/sample-posts/external-services/2022/12/10/giscus-comments.html";
           
         },
       },{id: "post-a-post-with-redirect",
@@ -273,7 +273,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/assets/pdf/example_pdf.pdf";
+            window.location.href = "/assets/pdf/example_pdf.pdf";
           
         },
       },{id: "post-a-post-with-diagrams",
@@ -284,7 +284,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/2021/07/04/diagrams.html";
+            window.location.href = "/2021/07/04/diagrams.html";
           
         },
       },{id: "post-a-distill-style-blog-post",
@@ -295,7 +295,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/2021/05/22/distill.html";
+            window.location.href = "/2021/05/22/distill.html";
           
         },
       },{id: "post-a-post-with-twitter",
@@ -306,7 +306,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/external-services/2020/09/28/twitter.html";
+            window.location.href = "/sample-posts/external-services/2020/09/28/twitter.html";
           
         },
       },{id: "post-a-post-with-disqus-comments",
@@ -317,7 +317,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/external-services/2015/10/20/disqus-comments.html";
+            window.location.href = "/sample-posts/external-services/2015/10/20/disqus-comments.html";
           
         },
       },{id: "post-a-post-with-math",
@@ -328,7 +328,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2015/10/20/math.html";
+            window.location.href = "/sample-posts/2015/10/20/math.html";
           
         },
       },{id: "post-a-post-with-code",
@@ -339,7 +339,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2015/07/15/code.html";
+            window.location.href = "/sample-posts/2015/07/15/code.html";
           
         },
       },{id: "post-a-post-with-images",
@@ -350,7 +350,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2015/05/15/images.html";
+            window.location.href = "/sample-posts/2015/05/15/images.html";
           
         },
       },{id: "post-a-post-with-formatting-and-links",
@@ -361,14 +361,14 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/website/sample-posts/2015/03/15/formatting-and-links.html";
+            window.location.href = "/sample-posts/2015/03/15/formatting-and-links.html";
           
         },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/website/books/the_godfather.html";
+              window.location.href = "/books/the_godfather.html";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -376,7 +376,7 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/website/news/announcement_2.html";
+              window.location.href = "/news/announcement_2.html";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
@@ -384,32 +384,32 @@ ninja.data = [{
           title: 'Database Assistant Agent',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/website/projects/1_database_agent.html";
+              window.location.href = "/projects/1_database_agent.html";
             },},{id: "projects-computer-vision-explainability-in-safety-surveillance",
           title: 'Computer Vision Explainability in Safety Surveillance',
           description: "An explainability framework for safety surveillance, extending Eigen-CAM to YOLOv5 object detection with relevance-based layer selection for bias diagnosis.",
           section: "Projects",handler: () => {
-              window.location.href = "/website/projects/1_pub_compviz_exp.html";
+              window.location.href = "/projects/1_pub_compviz_exp.html";
             },},{id: "projects-classification-on-imbalanced-browse-node-data-using-transformers",
           title: 'Classification on Imbalanced Browse Node data using Transformers',
           description: "Customized DeBERTa with Focal Loss for large-scale e-commerce browse node classification, improving convergence, confidence, and performance on imbalanced product data.",
           section: "Projects",handler: () => {
-              window.location.href = "/website/projects/2_browse_node.html";
+              window.location.href = "/projects/2_browse_node.html";
             },},{id: "projects-single-shot-localized-retrieval-using-yolov3",
           title: 'Single-Shot Localized Retrieval using YOLOv3',
           description: "A retrieval system that takes object selections as bounding box prompts from the user, given an image and retrievs similar objects from an image database.",
           section: "Projects",handler: () => {
-              window.location.href = "/website/projects/2_prodpeek.html";
+              window.location.href = "/projects/2_prodpeek.html";
             },},{id: "projects-robustness-analysis-of-neural-networks",
           title: 'Robustness Analysis of Neural Networks',
           description: "Exploring techniques to analyze and robustify feature specific dissections of neural networks",
           section: "Projects",handler: () => {
-              window.location.href = "/website/projects/2_robann.html";
+              window.location.href = "/projects/2_robann.html";
             },},{id: "projects-augmented-reality-enhanced-textbooks",
           title: 'Augmented Reality–Enhanced Textbooks',
           description: "Exploring techniques to analyze and robustify feature specific dissections of neural networks",
           section: "Projects",handler: () => {
-              window.location.href = "/website/projects/3_ar_tb.html";
+              window.location.href = "/projects/3_ar_tb.html";
             },},{
         id: 'social-email',
         title: 'email',

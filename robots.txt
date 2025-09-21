@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: /website/sitemap.xml
+Sitemap: kumar-selvakumaran.github.io/sitemap.xml
