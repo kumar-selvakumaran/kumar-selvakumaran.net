@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/website/";
     },
-  },{id: "nav-blog",
-          title: "Blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/website/blog/";
-          },
-        },{id: "nav-projects-and-publications",
+  },{id: "nav-projects-and-publications",
           title: "Projects and publications",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
@@ -397,9 +390,14 @@ ninja.data = [{
           description: "An explainability framework for safety surveillance, extending Eigen-CAM to YOLOv5 object detection with relevance-based layer selection for bias diagnosis.",
           section: "Projects",handler: () => {
               window.location.href = "/website/projects/1_pub_compviz_exp.html";
-            },},{id: "projects-yolov3-powered-localized-object-retrieval",
-          title: 'yolov3-powered localized object retrieval',
-          description: "A recommender that takes product selections from images and suggests similar products from a product image corpus",
+            },},{id: "projects-classification-on-imbalanced-browse-node-data-using-transformers",
+          title: 'Classification on Imbalanced Browse Node data using Transformers',
+          description: "Customized DeBERTa with Focal Loss for large-scale e-commerce browse node classification, improving convergence, confidence, and performance on imbalanced product data.",
+          section: "Projects",handler: () => {
+              window.location.href = "/website/projects/2_browse_node.html";
+            },},{id: "projects-single-shot-localized-retrieval-using-yolov3",
+          title: 'Single-Shot Localized Retrieval using YOLOv3',
+          description: "A retrieval system that takes object selections as bounding box prompts from the user, given an image and retrievs similar objects from an image database.",
           section: "Projects",handler: () => {
               window.location.href = "/website/projects/2_prodpeek.html";
             },},{id: "projects-robustness-analysis-of-neural-networks",
@@ -407,40 +405,38 @@ ninja.data = [{
           description: "Exploring techniques to analyze and robustify feature specific dissections of neural networks",
           section: "Projects",handler: () => {
               window.location.href = "/website/projects/2_robann.html";
+            },},{id: "projects-augmented-reality-enhanced-textbooks",
+          title: 'Augmented Reality–Enhanced Textbooks',
+          description: "Exploring techniques to analyze and robustify feature specific dissections of neural networks",
+          section: "Projects",handler: () => {
+              window.location.href = "/website/projects/3_ar_tb.html";
             },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%6B%75%6D%61%72.%73%65%6C%76%61%6B.%32%37@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/kumar-selvakumaran", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("/website/feed.xml", "_blank");
+          window.open("https://www.linkedin.com/in/kumar-selva", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://scholar.google.com/citations?user=pamBmPIAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
