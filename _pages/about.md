@@ -25,6 +25,24 @@ latest_posts:
   enabled: False
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+
+projects_and_publications:
+  enabled: True
+  display_categories: [Projects, Publications]
+  description: A growing collection of your cool projects.
+  nav: true
+  nav_order: 3
+  display_categories: [Projects, Publications]
+  horizontal: false
+
+
+cv:
+  enabled: true
+  nav_order: 5
+  cv_pdf: kumar_selvakumaran_cv.pdf # you can also use external links here
+  description: Below you will find a very short description of my education and work ex. For a more <b> complete CV </b> click the pdf icon 👉
+  toc:
+    sidebar: left
 ---
 
 I’m Kumar Selvakumaran — a bright-eyed, curious, and driven AI enthusiast who loves turning ideas into robust, precise systems. I thrive at the junction of research and product, iterating fast, learning faster, and caring deeply about responsibility, reliability, and useful outcomes.  

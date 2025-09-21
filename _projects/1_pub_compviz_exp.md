@@ -5,10 +5,12 @@ description: An explainability framework for safety surveillance, extending Eige
 img: assets/img/project_imgs/explainable_hardhat_detection.jpg
 importance: 1
 category: Publications
-related_publications: true
+related_publications: False
 ---
 
 [Github repo🔗](https://github.com/kumar-selvakumaran/explainable_hardhat_detection)
+
+[Publication link🔗](https://link.springer.com/chapter/10.1007/978-981-99-0838-7_21)
 
 **What is this project about?**
 
@@ -102,7 +104,7 @@ This project explores how **Eigen-CAM** can be applied to **YOLOv5 object detect
 * **For dataset curation**: Helps reveal bias, guiding dataset improvements.
 * **For explainable AI research**: Demonstrates how **Eigen-CAM + relevance scoring** can extend explainability into object detection tasks.
 
-{% include figure.liquid loading="eager" path="assets/img/project_imgs/explainable_hardhat_detection.jpg" title="prodseek_workflow" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/project_imgs/explainable_hardhat_detection.jpg" title="visualization of automatated EigenCAM explanations" class="img-fluid rounded z-depth-1" %}
 <div class="caption">
     Eigen-CAM explanations for YOLOv5 hardhat detection: the first column shows detections, the middle two columns display saliency maps from the top three most relevant layers, and the final column presents the averaged heatmaps highlighting where the model focuses for predictions.
 </div>

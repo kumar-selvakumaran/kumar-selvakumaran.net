@@ -40,32 +40,10 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
-
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
-
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
-
     <!-- Social -->
+
     {% if page.social %}
+
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
 
@@ -76,5 +54,128 @@ layout: default
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
+    
+    <!-- CV -->
+    
+    {% if page.cv and page.cv.enabled %}
+      <br>
+      <br>
+      <h2>
+        <a
+          {% if page.cv.cv_pdf contains '://' %}
+            href="{{ page.cv.cv_pdf }}"
+          {% else %}
+            href="{{ page.cv.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+          {% endif %}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="float-right"
+        >
+          <i class="fa-solid fa-file-pdf"></i>
+        </a>         
+      </h2>
+      {% if page.cv.description %}
+        <p>
+          {{ page..cv.description }}
+        </p>
+      {% endif %}
+
+      <div class="cv">
+        {% for data in site.data.resume %}
+          {% if site.jsonresume and site.jsonresume.size > 0 %}
+            {% unless site.jsonresume contains data[0] %}
+              {% continue %}
+            {% endunless %}
+          {% endif %}
+          {% if data[0] == 'meta' or data[1].size == 0 %}
+            {% continue %}
+          {% endif %}
+
+          {% case data[0] %}
+
+            {% when 'education' %}
+              <a class="anchor" id="{{ data[0] }}"></a>
+              <div class="card mt-3 p-3">
+                <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+                <div>
+                  {% include resume/education.liquid %}
+                </div>
+              </div>
+
+            {% when 'work' %}
+              <a class="anchor" id="{{ data[0] }}"></a>
+              <div class="card mt-3 p-3">
+                <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+                <div>
+                  {% include resume/work.liquid %}
+                </div>
+              </div>
+          {% endcase %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+
+    
+
+    <!-- News -->
+
+    {% if page.announcements and page.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Latest posts -->
+
+    {% if page.latest_posts and page.latest_posts.enabled %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+      </h2>
+      {% include latest_posts.liquid %}
+    {% endif %}
+
+    <!-- Selected papers -->
+
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+    
+    <!-- Projects and Publications -->
+
+    {% if page.projects_and_publications and page.projects_and_publications.enabled %}
+      {% for category in page.projects_and_publications.display_categories %}
+      <a id="{{ category }}" href=".#{{ category }}">
+        <br>
+        <hr>
+        <br>
+        <h2 class="category">{{ category }}</h2>
+      </a>
+      {% assign categorized_projects = site.projects | where: "category", category %}
+      {% assign sorted_projects = categorized_projects | sort: "importance" %}
+      <!-- Generate cards for each project -->
+      {% if page.projects_and_publications.horizontal %}
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2">
+        {% for project in sorted_projects %}
+          {% include projects_horizontal.liquid %}
+        {% endfor %}
+        </div>
+      </div>
+      {% else %}
+      <div class="row row-cols-1 row-cols-md-3">
+        {% for project in sorted_projects %}
+          {% include projects.liquid %}
+        {% endfor %}
+      </div>
+      {% endif %}
+      {% endfor %}
+    {% endif %}
+    
+
   </article>
 </div>

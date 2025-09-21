@@ -1,7 +1,7 @@
 ---
 layout: page
-title: yolov3-powered localized object retrieval
-description:  A recommender that takes product selections from images and suggests similar products from a product image corpus
+title: Single-Shot Localized Retrieval using YOLOv3
+description:  A retrieval system that takes object selections as bounding box prompts from the user, given an image and retrievs similar objects from an image database.
 img: assets/img/project_imgs/semantic_project_catalogue_searcher.png
 importance: 3
 category: Projects
