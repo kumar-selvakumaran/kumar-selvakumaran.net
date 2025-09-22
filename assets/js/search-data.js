@@ -382,7 +382,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-database-assistant-agent",
           title: 'Database Assistant Agent',
-          description: "",
+          description: "A LangChain ReAct database agent that enables users to chat with a database using multi-hop reasoning and in-context learning to refine knowledge. It then produces the trail of SQL commands it used to extract knowledge.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_database_agent.html";
             },},{id: "projects-computer-vision-explainability-in-safety-surveillance",
