@@ -8,7 +8,10 @@ category: Publications
 related_publications: False
 ---
 
-[Github repo🔗](https://github.com/kumar-selvakumaran/Transformers_for_imbalanced_classification)
+#### Published in the 2023 International Conference on Computational Intelligence and Sustainable Engineering Solutions (CISES): [link🔗](https://ieeexplore.ieee.org/document/10183484)
+
+[Github repo🔗](https://github.com/kumar-selvakumaran/AR_enabled_textbooks)
+
 
 **What is this project about?**
 

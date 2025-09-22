@@ -8,8 +8,9 @@ category: Publications
 related_publications: False
 ---
 
-[Github repo🔗](https://github.com/kumar-selvakumaran/RobAn_veriml)
+#### Published in 2023 4th International Conference on Electronics and Sustainable Communication Systems (ICESC)  [link🔗](https://link.springer.com/chapter/10.1007/978-981-99-0838-7_21)
 
+[Github repo🔗](https://github.com/kumar-selvakumaran/explainable_hardhat_detection)
 
 **What is this project about?**
 

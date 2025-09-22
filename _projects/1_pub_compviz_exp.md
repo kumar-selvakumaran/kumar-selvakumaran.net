@@ -8,9 +8,9 @@ category: Publications
 related_publications: False
 ---
 
-[Github repo🔗](https://github.com/kumar-selvakumaran/explainable_hardhat_detection)
+#### Published in Smart Trends in Computing and Communications (SmartCom 2023) as a part of the book series: Lecture Notes in Networks and Systems ((LNNS,volume 650)): [link🔗](https://link.springer.com/chapter/10.1007/978-981-99-0838-7_21)
 
-[Publication link🔗](https://link.springer.com/chapter/10.1007/978-981-99-0838-7_21)
+[Github repo🔗](https://github.com/kumar-selvakumaran/explainable_hardhat_detection)
 
 **What is this project about?**
 

@@ -60,7 +60,7 @@ layout: default
     {% if page.cv and page.cv.enabled %}
       <br>
       <br>
-      <h2>
+      <h1>
         <a
           {% if page.cv.cv_pdf contains '://' %}
             href="{{ page.cv.cv_pdf }}"
@@ -73,11 +73,12 @@ layout: default
         >
           <i class="fa-solid fa-file-pdf"></i>
         </a>         
-      </h2>
+      </h1>
       {% if page.cv.description %}
         <p>
           {{ page..cv.description }}
         </p>
+        <br>
       {% endif %}
 
       <div class="cv">
@@ -102,12 +103,12 @@ layout: default
                 </div>
               </div>
 
-            {% when 'work' %}
+            {% when 'work_short' %}
               <a class="anchor" id="{{ data[0] }}"></a>
               <div class="card mt-3 p-3">
-                <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+                <h3 class="card-title font-weight-medium">Work</h3>
                 <div>
-                  {% include resume/work.liquid %}
+                  {% include resume/work_short.liquid %}
                 </div>
               </div>
           {% endcase %}
