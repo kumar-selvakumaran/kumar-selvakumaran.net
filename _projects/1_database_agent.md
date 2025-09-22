@@ -2,7 +2,7 @@
 layout: page
 title: Database Assistant Agent
 description: A LangChain ReAct database agent that enables users to chat with a database using multi-hop reasoning and in-context learning to refine knowledge. It then produces the trail of SQL commands it used to extract knowledge. 
-img: assets/img/project_gifs/db_agent_demo_short.gif
+img: assets/img/project_gifs/high_res_db_agent.gif
 importance: 1
 category: Projects
 related_publications: true
@@ -12,7 +12,7 @@ related_publications: true
 
 This project implements a ReAct {% cite yao2023react %} database agent in **LangChain**. The agent engages in a feedback loop with the database, using **multi-hop reasoning** to iteratively query and refine its understanding. Through this process, it leverages **in-context learning** to build knowledge about the database schema and contents until it has enough information to answer complex user questions. Finally, it responds with both the natural-language answer and the exact SQL commands it executed to obtain the result. The project was deployed as a [hugging Face Space](https://huggingface.co/spaces/KumarSel/database_agent)
 
-{% include figure.liquid loading="eager" path="assets/img/project_gifs/db_agent_demo.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/project_gifs/high_res_db_agent.gif" title="example image" class="img-fluid rounded z-depth-1" %}
 <div class="caption">
     recording of an example run.
 </div>

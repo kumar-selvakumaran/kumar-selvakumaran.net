@@ -45,14 +45,30 @@ cv:
     sidebar: left
 ---
 
-I’m Kumar Selvakumaran — a bright-eyed, curious, and driven AI enthusiast who loves turning ideas into robust, precise systems. I thrive at the junction of research and product, iterating fast, learning faster, and caring deeply about responsibility, reliability, and useful outcomes.  
+I’m a Northeastern M.S. in AI graduate specializing in computer vision, verifiable ML, and robustly controlled multi-agent AI systems. I built end-to-end CV at Juhomi, developed AI microservices rapidly at Sentient, addressed facets of AI in healthcare at Inflohealth, and engineered zero-shot computer vision workflows and  multimodal agentic systems with rigorous testing at Norfolk Southern.
 
-Currently, I’m pursuing a **Master of Science in Artificial Intelligence at Northeastern University** (GPA: 3.77/4.0), with coursework in Verifiable Machine Learning, Human–Computer Interaction, Computer Vision, and Unsupervised ML. My focus lies in building **reproducible, explainable, and high-performance AI workflows** that balance rigor with real-world usability.  
+the candid version:
 
-I’ve interned across industries — from **Norfolk Southern**, where I engineered GPU-accelerated agentic RAG systems and multimodal pipelines, to **Inflohealth**, where I scaled radiology-report retrieval with biomedical transformers, and **Sentient.io & Juhomi**, where I optimized computer vision microservices and co-developed an AI-powered retail analytics platform.  
+- I started liking AI because it seemed magical. "You can make machines see the world like you do!, what's not to like?" - younger me.
 
-Beyond internships, my projects span **multi-agent database systems, robust neural networks, and semantic product search**, while my publications address **transformer-based classification, explainable object detection, and AR in education**.  
+- As I started learning more, turns out, it's made possible using elegant math and code! [BAM! \[statquest\]](https://www.youtube.com/watch?v=i4iUvjsGCMc)
 
-I value **rigor over hype, clarity over noise, and measurable impact over vanity metrics**. I’m drawn to workflows kind to both humans and machines, and I aspire to bridge the gap between cutting-edge research and responsible, scalable AI products.  
+- I was lucky to work on complete end-to-end computer vision pipeline at [Juhomi](https://www.juhomi.com/) (2021-2022). That was like being overwhelmed at the sight of the ocean, just as I was amazed after discovering water. Whiplash! never stopped tho.
+
+- I began to get a groove during my work with [Sentient](https://sentient.io/)(2023), met a couple AI ninjas, and learned some ninjutsu myself.
+
+- Then I came to the USA, to [Northeastern](https://www.northeastern.edu/) for my Masters in AI. before I was overwhelmed by a peek, and now, this was like clif-jumping into the ocean 🏊🏽‍♂️.
+
+- I was now clearer than ever about I wanted to do. My view of AI when from "imbuing computers with magic 👶🏽🪄" to "Recreating physics with data 👨🏾‍🔬👨🏾‍💻"
+
+- As time here progressed, My mind was being opened to the different facets and challenges in the field. My time at [inflohealth](https://inflohealth.com/)(2024) dealth with the many practical concerns of AI, and it's application in critical domains (like healthcare). It's not always magical😅, but it still is🙃.
+
+- As I took classes like Verifiable ML, it became clearer that AI, if wielded irresponsibly, will trash your system at best, and a whole lot of others' at worst. My distaste for anything Prompt-and-pray-flavoured was higher than ever.
+
+- Working with the Data Science team at [Norfolk Southern](https://www.norfolksouthern.com/), I was reconnected with one of my core passions COMPUTER VISION!. Working with their crazzy tech! I didnt notice time going by as I GEEKED OUT!. As I began working on multimodal multi-agent systems, building testing workflows that were more robust than ever to keep the agents in check was the biggest challenge I had ever faced. I had never appreciated how critical thoughtful software engineering is more than I did when I was here.
+
+- As I finish my master's, I feel a twinge of regret for not seeing earlier how profound math and science could be; seeing them as I do now might have left me better off. It's never too late tho 😉🤫😶‍🌫️.
+
+- Can't wait for what's to come!s
 
 👉 You can explore my [portfolio](https://www.datascienceportfol.io/kumarselvakumaran), [GitHub](https://github.com/kumar-selvakumaran), and [LinkedIn](https://www.linkedin.com/in/kumar-selva/).  

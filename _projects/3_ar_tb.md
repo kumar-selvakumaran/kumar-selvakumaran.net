@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Augmented Reality–Enhanced Textbooks
-description: Exploring techniques to analyze and robustify feature specific dissections of neural networks
+description: Scalable augmented reality pipeline embedding AR markers in textbooks, delivering interactive 3D learning via affordable smartphones for low-income schools; TNSCST-funded.
 img: assets/img/project_gifs/ar_tb.gif
 importance: 3
 category: Publications
