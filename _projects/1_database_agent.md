@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Database Assistant Agent
-description: 
+description: A LangChain ReAct database agent that enables users to chat with a database using multi-hop reasoning and in-context learning to refine knowledge. It then produces the trail of SQL commands it used to extract knowledge. 
 img: assets/img/project_gifs/db_agent_demo_short.gif
 importance: 1
 category: Projects
