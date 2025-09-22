@@ -407,7 +407,7 @@ ninja.data = [{
               window.location.href = "/projects/2_robann.html";
             },},{id: "projects-augmented-reality-enhanced-textbooks",
           title: 'Augmented Reality–Enhanced Textbooks',
-          description: "Exploring techniques to analyze and robustify feature specific dissections of neural networks",
+          description: "Scalable augmented reality pipeline embedding AR markers in textbooks, delivering interactive 3D learning via affordable smartphones for low-income schools; TNSCST-funded.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_ar_tb.html";
             },},{
