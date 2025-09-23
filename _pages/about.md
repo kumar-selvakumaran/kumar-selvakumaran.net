@@ -69,7 +69,7 @@ the candid version:
 
 - As I finish my master's, I feel a twinge of regret for not seeing earlier how profound math and science could be; seeing them as I do now might have left me better off. It's never too late tho 😉🤫😶‍🌫️.
 
-- Lately, I've been exploring what it means to design Human-Centered AI systems. If there is one thing AI systems today needs, it is adherence to Human-centered design principles. Proficiency alone doesn’t foster adoption; [Reliability, Safety and Trustworthiness](https://arxiv.org/pdf/2002.04087) do.
+- Lately, I've been exploring what it means to design Human-Centered AI systems. If there is one thing AI systems today need, it is adherence to Human-centered design principles. Proficiency alone doesn’t foster adoption; [Reliability, Safety and Trustworthiness](https://arxiv.org/pdf/2002.04087) do.
 
 - Can't wait for what's to come!
 
