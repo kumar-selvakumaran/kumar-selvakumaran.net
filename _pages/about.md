@@ -69,6 +69,6 @@ the candid version:
 
 - As I finish my master's, I feel a twinge of regret for not seeing earlier how profound math and science could be; seeing them as I do now might have left me better off. It's never too late tho 😉🤫😶‍🌫️.
 
-- Can't wait for what's to come!s
+- Can't wait for what's to come!
 
 👉 You can explore my [portfolio](https://www.datascienceportfol.io/kumarselvakumaran), [GitHub](https://github.com/kumar-selvakumaran), and [LinkedIn](https://www.linkedin.com/in/kumar-selva/).  
